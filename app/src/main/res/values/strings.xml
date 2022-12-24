@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="Valuea">Value a</string>
+    <string name="Valueb">Value b</string>
+    <string name="InfoA">A</string>
+    <string name="InfoB">B</string>
+    <string name="ValueResult">Value result</string>
+    <string name="InfoAdd">+</string>
+    <string name="InfoDivide">/</string>
+    <string name="InfoSubtract">-</string>
+    <string name="Multiply">*</string>
+    <string name="InfoPow">x^y</string>
+    <string name="InfoSin">Sin</string>
+    <string name="InfoCos">Cos</string>
+    <string name="InfoTan">Tan</string>
+    <string name="InfoSqrt">Sqrt</string>
+
+</resources>

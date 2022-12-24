@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonLn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Buttons"
+            android:text="Ln" />
+
+        <Button
+            android:id="@+id/buttonLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Buttons"
+            android:text="Log" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonPow"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="@string/InfoPow" />
+
+        <Button
+            android:id="@+id/buttonSin"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="@string/InfoSin" />
+
+        <Button
+            android:id="@+id/buttonCos"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="@string/InfoCos" />
+
+        <Button
+            android:id="@+id/buttonSqrt"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="@string/InfoSqrt" />
+
+        <Button
+            android:id="@+id/buttonTan"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="@string/InfoTan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/InfoA" />
+
+        <EditText
+            android:id="@+id/textBoxA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/Valuea"
+            android:inputType="number"
+            android:digits="-012456789."
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/InfoB" />
+
+        <EditText
+            android:id="@+id/textBoxB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/Valueb"
+            android:inputType="number"
+            android:digits="-012456789."
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Result" />
+
+        <EditText
+            android:id="@+id/textBoxResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="none"
+            android:enabled="false"
+            android:text="@string/ValueResult"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/buttonSubtract"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_button_background"
+            android:onClick="Buttons"
+            android:text="*" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
